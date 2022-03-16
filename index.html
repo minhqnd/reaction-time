@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Reaction Time Test</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+
+<div class="box">
+   <div class="descriptionContainer">
+	  <p class="tiso" style='display: none'>Loading...</p>	
+      <p class="description">Loading...</p>
+      <span class="loader">
+      </span>
+   </div>
+   <p class="result"></p>
+   <div id="setplayer" style='display: none'></div>
+   <div class="ready">
+   <div id="player1" ></div>
+   <div id="player2" ></div>
+   <div class="rtime" style='display: none' ></div>
+   <div class="time1" style='display: none' ></div>
+   <div class="done1" style='display: none' ></div>
+   <div class="done2" style='display: none' ></div>
+   <div class="score1" style='display: none' ></div>
+   <div class="score2" style='display: none' ></div>
+   <div class="mytime" style='display: none'></div>
+   
+   </div>
+   <svg id="ss">
+  <text class="word" dominant-baseline="central" fill="#222" stroke="#222" stroke-linecap="round" stroke-width="1.5%" text-anchor="middle" x="50%" y="50%">Random Words!</text>
+  <text class="word" dominant-baseline="central" fill="white" text-anchor="middle" x="50%" y="50%">Random Words!</text></svg>
+</div>
+
+<!-- partial -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-auth.js"></script>
+<script  src="./script.js"></script>
+
+
+</body>
+</html>
